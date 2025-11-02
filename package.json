@@ -1,0 +1,30 @@
+{
+  "name": "keepfresh-data",
+  "version": "1.0.0",
+  "description": "Sources data for KeepFre.sh",
+  "main": "index.js",
+  "scripts": {
+    "aldi": "npx ts-node aldi.ts aldi.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barclayd/keepfresh-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/barclayd/keepfresh-data/issues"
+  },
+  "homepage": "https://github.com/barclayd/keepfresh-data#readme",
+  "dependencies": {
+    "cheerio": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
