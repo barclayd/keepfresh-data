@@ -4,7 +4,8 @@
   "description": "Sources data for KeepFre.sh",
   "main": "index.js",
   "scripts": {
-    "aldi": "npx ts-node aldi.ts aldi.txt"
+    "aldi": "npx ts-node aldi.ts aldi.txt",
+    "tesco": "npx ts-node tesco.ts tesco.txt main.csv"
   },
   "repository": {
     "type": "git",
